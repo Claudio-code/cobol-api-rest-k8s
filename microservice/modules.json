@@ -1,0 +1,23 @@
+{
+  "$schema": "https://cobolget.com/schema.json",
+  "name": "package-name",
+  "description": "Short description",
+  "modules": [
+    "src/microservice.cbl"
+  ],
+  "dialect": "gnucobol",
+  "licenses": [
+    "MIT"
+  ],
+  "authors": [
+    "claudio-code"
+  ],
+  "dependencies": {
+    "core-network": "*",
+    "core-string": "*"
+  },
+  "dependencies-debug": {
+    "gcblunit": "*"
+  },
+  "scripts": {}
+}

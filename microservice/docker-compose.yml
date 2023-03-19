@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cobol-api: 
+    container_name: cobol-api
+    build: .
+    ports:
+      - "8080:08000"
