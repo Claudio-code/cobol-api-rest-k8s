@@ -5,4 +5,4 @@ services:
     container_name: cobol-api
     build: .
     ports:
-      - "8080:08000"
+      - "8080:8000"
